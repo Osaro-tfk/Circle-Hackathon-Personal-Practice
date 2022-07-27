@@ -23,14 +23,14 @@ body{
 .main-container{
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    gap:24px;
+    flex-direction: row;
+    gap:1.25rem;
     align-items: center;
     background-color: #E9EEF5;
 }
 .sub-container{
     background-color: #ffffff;
-    width: 620px;
+    width: 500px;
     height: 708px;
     padding: 25px;
     border-radius: 5px;
