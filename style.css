@@ -21,17 +21,18 @@ body{
 }
 
 .main-container{
-    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 500vh;
     display: flex;
     flex-direction: row;
-    gap:1.25rem;
+    gap:1rem;
     align-items: center;
     background-color: #E9EEF5;
 }
 .sub-container{
     background-color: #ffffff;
-    width: 500px;
-    height: 708px;
+    width: 400vh;
+    height: 80vh;
     padding: 25px;
     border-radius: 5px;
     margin: 137px 124px;
