@@ -6,15 +6,16 @@ body{
     /* background: #1E1E1E; */
 }
 .logo{
-    background-color: #000;
-    border: 1px solid #000;
+    /* background-color: #000;
+    border: 1px solid #000; */
     width:200px;
     height: 100px;
     margin-bottom: 0;
-    margin-left: 10px;
+    margin-left: 40%;
     padding:0;
     align-items: center;
 }
+
 .logo img{
     max-width: 80%;
     height: auto;
@@ -31,11 +32,11 @@ body{
 }
 .sub-container{
     background-color: #ffffff;
-    width: 400vh;
+    width: 100vw;
     height: 80vh;
     padding: 25px;
     border-radius: 5px;
-    margin: 137px 124px;
+    margin: 115px 124px;
 }
 .container-content{
     margin-bottom: 15px;
@@ -44,8 +45,14 @@ p.sub-heading{
     margin-bottom: 3px;
 }
 .sub-container textarea{
-    width: 100%;
+     width: 100%;
+     height:8rem;
     padding-left: 10px;
+}
+.sub-container textarea#replace{
+    width: 100%;
+    height:3rem;
+   padding-left: 10px;
 }
 .sub-container button{
     background: linear-gradient(93.58deg, #2AF598 0%, #08AEEA 50%);
@@ -59,20 +66,23 @@ p.sub-heading{
     display:inline-flex;
     column-gap: 10px;
 }
+.container-content-2 p{
+    font-size: small;
+}
 .container-content-2 .output-result-1{
     background: #2AF598;
     border:none;
-    padding: 10px 25px;
+    padding: 5px 10px;
 }
 .container-content-2 .output-result-2{
     background: #08AEEA;
     border:none;
-    padding: 10px 25px;
+    padding: 5px 10px;
 }
 .container-content-2 .output-result-3{
     background: #DFAFB2;
     border:none;
-    padding: 10px 25px;
+    padding: 5px 10px;
 }
 footer{
     text-align: center;
